@@ -17,5 +17,6 @@ To work with this template, you need a code editor (such as VS Code) and basic k
 Installation
 Clone the repository:
 git clone https://github.com/Hlogie01/savanna-junior-foundation.git
+
 Navigate into the project directory:
 cd savanna-junior-foundation
