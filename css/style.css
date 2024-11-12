@@ -1,9 +1,10 @@
 /********** Template CSS **********/
 :root {
-    --primary: #F3BD00;
+    --primary: #d96f30;
     --secondary: #757575;
     --light: #F3F6F8;
     --dark: #0C2B4B;
+    --accent: #157ec4;
 }
 
 .py-6 {
@@ -30,12 +31,14 @@
     visibility: hidden;
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
+    color: var(--primary);
 }
 
 #spinner.show {
     transition: opacity .5s ease-out, visibility 0s linear 0s;
     visibility: visible;
     opacity: 1;
+    color: var(--primary);
 }
 
 /*** Button ***/
@@ -88,7 +91,7 @@
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: var(--dark);
+    color: var(--primary);
     font-weight: 500;
     text-transform: uppercase;
     outline: none;
@@ -147,7 +150,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(0, 0, 0, .75);
+    background: rgba(0, 0, 0, 0);
     z-index: 1;
 }
 
@@ -179,7 +182,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0)), url(../img/about1.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -199,7 +202,7 @@
 /*** Courses ***/
 .courses {
     min-height: 100vh;
-    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../img/homeimg2.jpg) center center no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
